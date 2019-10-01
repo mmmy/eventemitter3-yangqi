@@ -4,19 +4,12 @@
   "description": "EventEmitter3 focuses on performance while maintaining a Node.js AND browser compatible interface.",
   "main": "index.js",
   "scripts": {
-    "curl": "curl www.baidu.com",
-    "test": "node test/test.js",
-    "echo": "echo hiii"
+    "test": "nyc --reporter=html --reporter=text mocha test/test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mmmy/eventemitter3-yangqi.git"
   },
-  "pre-commit": [
-    "curl",
-    "echo",
-    "test"
-  ],
   "keywords": [
     "EventEmitter",
     "EventEmitter2",
@@ -40,6 +33,9 @@
   },
   "homepage": "https://github.com/mmmy/eventemitter3-yangqi#readme",
   "devDependencies": {
+    "assume": "^2.2.0",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1",
     "pre-commit": "^1.2.2"
   }
 }
