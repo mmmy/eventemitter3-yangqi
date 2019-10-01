@@ -6,7 +6,7 @@
   "scripts": {
     "curl": "curl www.baidu.com",
     "test": "node test/test.js",
-    "echo": "echo hiiiiii"
+    "echo": "echo hiii"
   },
   "repository": {
     "type": "git",
