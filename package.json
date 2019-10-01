@@ -1,0 +1,38 @@
+{
+  "name": "eventemitter3-yangqi",
+  "version": "1.0.0",
+  "description": "EventEmitter3 focuses on performance while maintaining a Node.js AND browser compatible interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmmy/eventemitter3-yangqi.git"
+  },
+  "keywords": [
+    "EventEmitter",
+    "EventEmitter2",
+    "EventEmitter3",
+    "Events",
+    "addEventListener",
+    "emit",
+    "emits",
+    "emitter",
+    "event",
+    "once",
+    "pub/sub",
+    "publish",
+    "reactor",
+    "subscribe"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmmy/eventemitter3-yangqi/issues"
+  },
+  "homepage": "https://github.com/mmmy/eventemitter3-yangqi#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
